@@ -42,3 +42,13 @@ body.addEventListener("click" , e =>{
         nav.classList.remove("active");
     }
 });
+
+window.addEventListener("scroll", function() {
+  const navbar = document.querySelector("nav");
+  // Add the "scrolled" class if the page is scrolled down 50px or more
+  if (window.scrollY > 50) {
+      navbar.classList.add("scrolled");
+  } else {
+      navbar.classList.remove("scrolled");
+  }
+});
