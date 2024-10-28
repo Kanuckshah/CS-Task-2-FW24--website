@@ -452,3 +452,9 @@ nav.scrolled {
     background-color: #242526;; /* Dark background */
     transition: background-color 0.3s ease;
 }
+
+img { 
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
