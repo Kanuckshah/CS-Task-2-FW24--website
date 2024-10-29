@@ -14,7 +14,7 @@
 :root{
     --body-color: #E4E9F7;
     --nav-color: #e0e0e000;
-    --side-nav: #010718;
+    --side-nav: #E4E9F7;
     --text-color: #299100;
     --search-bar: #F2F2F2;
     --search-text: #010718;
@@ -27,8 +27,8 @@ body{
 
 body.dark{
     --body-color: #18191A;
-    --nav-color: #242526;
-    --side-nav: #242526;
+    --nav-color: #222222;
+    --side-nav: #222222;
     --text-color: #299100;
     --search-bar: #242526;
 }
@@ -239,7 +239,7 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 
-@media (max-width: 790px) {
+@media (max-width: 950px) {
     nav .nav-bar .sidebarOpen{
         display: block;
     }
@@ -295,10 +295,12 @@ body.dark .search-field i{
     background-color: white;
     border: 2px solid #299100;
     border-radius: 10px;
+    padding-bottom: 20px;
     padding: 20px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .intro-container h1 {
@@ -351,6 +353,7 @@ body.dark .search-field i{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .impact-section h1 {
@@ -375,6 +378,7 @@ body.dark .search-field i{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .regulations-section h1 {
@@ -399,6 +403,7 @@ body.dark .search-field i{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .tech-solutions-section h1 {
@@ -423,6 +428,7 @@ body.dark .search-field i{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .reduce-impact-section h1 {
@@ -457,4 +463,30 @@ img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+}
+
+/* ===== Environmental Initiatives Section ===== */
+.initiatives-section {
+    max-width: 800px;
+    background-color: white;
+    border: 2px solid #299100;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+
+.initiatives-section h1 {
+    color: #299100;
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.initiatives-section p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 10px 0;
 }
